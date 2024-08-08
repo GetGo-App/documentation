@@ -15,7 +15,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'GetGo-AI', // Usually your GitHub org/user name.
+  organizationName: 'GetGo-App', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
   trailingSlash: false,
 
