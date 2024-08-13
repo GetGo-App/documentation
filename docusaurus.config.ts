@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Get Go',
-  tagline: 'Travel more fun and convenient',
+  tagline: 'Tailored travel itinerary designed just for you!',
   favicon: 'img/mascot-getgo.png',
 
   // Set the production url of your site here

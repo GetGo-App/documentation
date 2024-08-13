@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Personalized Your Journey',
+    Svg: require('@site/static/img/landing1.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Tell us your preferences, and we'll create a personalized itinerary that fits your 
+        style and budget. Skip the hassle of research and book your perfect trip with ease.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Capture Every Moment',
+    Svg: require('@site/static/img/landing2.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Instantly share unedited photos, create a visual travel diary, and connect with friends 
+        to share your adventures. Make every trip unforgettable with our real-time photo updates!
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Travel Destination Finder',
+    Svg: require('@site/static/img/landing3.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Discover hidden gems and trending places with GetGo's map. Read authentic reviews from fellow travelers, and 
+        create a personalized travel journal to document your unique adventures.
       </>
     ),
   },
