@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Get Go',
   tagline: 'Travel more fun and convenient',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/mascot-getgo.png',
 
   // Set the production url of your site here
   url: 'https://getgo-app.github.io/',

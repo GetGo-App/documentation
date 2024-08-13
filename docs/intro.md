@@ -13,14 +13,6 @@ To use GetGo, simply install the app using the provided `apk` file. Once install
 If you'd like to set up your own version of the app, follow these steps:
 
 
-<div align="center">
-  <img src="docs/img/home.png" width="300" alt="Image 2" />
-  <img src="docs/img/detailed_location.png" width="300" alt="Image 1" />
-  <p align="center">Demonstrating the UI of the GetGo app. The left panel showcases the home page, while the right panel displays detailed information about a location when the user taps to view more details</p>
-</div>
-
-
-
 ### Frontend Setup
 
 **Requirements:** Android Studio
