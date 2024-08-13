@@ -4,44 +4,92 @@ sidebar_position: 1
 
 # Introduction
 
-Let's discover **GetGo in less than 5 minutes**.
+Welcome to GetGo! Our app makes your travels easier by combining three key features: a chatbot to help you find information and create routes, a social media platform to share and view travel photos, and a list of popular destinations with location details.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+To use GetGo, simply install the app using the provided `apk` file. Once installed, you can start exploring all the features right away.
 
-Or **try Docusaurus immediately** with **[GetGo.new](https://docusaurus.new)**.
+If you'd like to set up your own version of the app, follow these steps:
 
-### What you'll need
+### Frontend Setup
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**Requirements:** Android Studio
 
-## Generate a new site
+**Installation Steps:**
 
-Generate a new Docusaurus site using the **classic template**.
+1. **Clone the repository:**
 
-The classic template will automatically be added to your project after you run the command:
+   ```bash
+   git clone https://github.com/GetGo-App/getgo-frontend
+   ```
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+2. **Open the project in Android Studio:**
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+   - Open Android Studio.
+   - Select "Open an existing Android Studio project."
+   - Find the GetGo-Mobile folder in the cloned repository.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+3. **Build and Run:**
 
-## Start your site
+   - Sync the project with Gradle files.
+   - Build the project by selecting **Build > Rebuild Project**.
+   - Connect your Android device or start an emulator.
+   - Click the Run button or select **Run > Run 'app'**.
 
-Run the development server:
+### AI Engine Setup
 
-```bash
-cd my-website
-npm run start
-```
+**Requirements:**
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+- Python 3.10
+- Docker
+- Bash
+- Required libraries (listed in `requirements.txt`)
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+**Installation Steps:**
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/pphuc25/GetGo-AI.git
+   ```
+
+2. **Start Searxng:**
+
+   ```bash
+   cd searxng-docker
+   docker-compose up -d
+   ```
+
+3. **Configure Environment Variables:**
+
+   - Open the `.env` file in the project root.
+   - Enter your API keys and other necessary values.
+
+4. **Build and run the Docker container:**
+
+   ```bash
+   docker build -t GetGo-AI .
+   docker run -p 7860:7860 GetGo-AI
+   ```
+
+### Backend Setup
+
+**Requirements:** Visual Studio 2022 or Visual Studio Code (with C# Dev Kit extension)
+
+**Installation Steps:**
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/GetGo-App/getgo-backend
+   ```
+
+2. **Install NPM packages using NuGet:**
+
+   - Refer to Stack Overflow for more details on installing NuGet packages.
+
+3. **Build and Run:**
+
+   - Set `getgo-backend` as the Startup Project.
+   - Press F5 or click the `getgo-backend` button to build and run the project.
