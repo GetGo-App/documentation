@@ -62,7 +62,7 @@ const config: Config = {
       title: 'GetGo',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/mascot-getgo.png',
       },
       items: [
         {
@@ -71,7 +71,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://www.facebook.com/GetyourplanGoexplore',
           label: 'Facebook',
@@ -111,10 +111,10 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
               href: 'https://github.com/GetGo-App',
