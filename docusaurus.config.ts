@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Get Go',
+  title: 'GetGo',
   tagline: 'Tailored travel itinerary designed just for you!',
   favicon: 'img/mascot-getgo.png',
 
