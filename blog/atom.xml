@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://getgo-app.github.io/documentation/blog</id>
-    <title>Get Go Blog</title>
+    <title>GetGo Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://getgo-app.github.io/documentation/blog"/>
-    <subtitle>Get Go Blog</subtitle>
+    <subtitle>GetGo Blog</subtitle>
     <icon>https://getgo-app.github.io/documentation/img/mascot-getgo.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
